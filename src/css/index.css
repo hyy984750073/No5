@@ -1,0 +1,274 @@
+.main{width:1200px;margin:0 auto;padding-bottom:30px;font-size:12px;}
+.limitbuy,.saletabs,.saletabs-list,.brand-activity,.skin-care,.make-up,.consult{width:1200px;}
+
+
+
+.total-nav .first-menu{display: block!important;}
+.alwayhere .first-menu{display: none!important;}
+
+/*    banner     */
+.banner{height:400px;width:100%;position: relative;}
+.banner-pic li{height:400px;width:100%;position:absolute;left:0;top:0px;}
+.banner-pic li div{width:1200px;}
+.green{background:#9feaf0 url(../img/16091309502368554054.jpg) no-repeat center center;}
+.purple{background:#e4bfe8 url(../img/16090715563736266609.jpg) no-repeat center center;}
+.pink{background:#faeff7 url(../img/16090114054747740456.jpg) no-repeat center center;}
+.white{background:#fff url(../img/16082415390863460518.jpg) no-repeat center center;}
+.orange{background:#f5e9d3 url(../img/16081113592655176826.jpg) no-repeat center center;}
+.blue{background:#c1dfff url(../img/16072816045775868202.jpg) no-repeat center center;}
+
+.banner-no{visibility: visible;left: 350px;display: block;position: absolute;width: 260px;
+    height: 25px;top: 368px;z-index: 1;font-size: 12px;color: #666;font-family: arial;}
+.banner-no li{font-family: Arial,Verdana;text-indent: 0.25em;border-radius: 50%;
+margin: 0 5px;cursor: pointer;padding: 4px;display: block;float: left;
+width: 14px;height: 14px;background: #e8e8e8;}
+.banner-no li.select{background: #00b5ff;}
+
+.banner-ad{overflow: hidden;right: 10px;top:13px;width: 190px;height: 372px;
+z-index: 2;visibility: visible;left: 1032px;position: absolute;}
+.banner-ad img{width:190px;height:124px;display: block;}
+
+/*      hot-tuij        */
+.hot-tuij{height:187px;padding-left:231px;width:969px;}
+.hot-center{width:313px;padding-left:10px;float: left;}
+.hot-center img{width:313px;height:187px;}
+
+.advert{height:33px;width:959px;padding-left:241px;}
+.advert span{display: block;width:19px;height:19px;margin-top:6px;
+background: url(img/detail.gif) no-repeat -410px -30px;float: left;}
+.advert a{color: #666;line-height: 33px;font-family: arial;}
+
+/*   limitbuy    */
+.limitbuy{height:530px;border-bottom: 1px solid #e4e4e4;}
+.limitbuy h2{height:32px;border-bottom: 2px solid #ff8c8f;padding-top:30px;}
+.limitbuy dl{height:418px;width:289px;border:1px solid #e4e4e4;margin-top:10px;border-bottom: none;}
+.limitbuy dl:hover{border:1px solid red;border-bottom:none;}
+.limitbuy dt{height:38px;color:#999999;width:287px;margin:1px;margin-bottom:0;
+line-height: 38px;background:#f8f7f5 url(img/clock.jpg) no-repeat 35px 5px;text-indent: 73px;}
+.limitbuy dt b{color:#ff1a3a;font-size:20px;font-weight:bold;}
+.limit-title{color:#666666;padding:0 15px 0 15px;line-height: 19px;font-weight: bold;height:35px;overflow: hidden;}
+.limit-price{background: url(img/i_03.jpg) no-repeat;height:55px;color:#fff;font-weight: bold;
+font-size:14px;padding:15px 0 0 23px;}
+.limit-price span{font-size:28px;}
+.limitbuy dd img{width:260px;margin:13px;}
+a.goodsbox{float: left;width:291px;height:457px;display: inline-block;padding-right:12px;}
+.limitbuy a.nopadding-right{padding-right:0;}
+.limit-havebuy{height:39px;color:#666666;line-height: 30px;text-indent: 200px;}
+.limit-havebuy strong{color:#ff1a3a;font-size:13px;font-family: Arial;font-weight: bold;}
+
+/*   saletabs    */
+.saletabs{height:498px;}
+.saletabs-list{height:62px;background:url(img/saletab.jpg) repeat-x;font-size:18px;font-family: "微软雅黑";
+font-weight:bold;text-align: center;position: relative;}
+.saletabs-list li{float: left;width:235px;height:62px;background: url(img/saletabs.jpg) no-repeat right  top;
+line-height: 80px;}
+.saletabs-list .nobackground{background: none;}
+
+.tab-arrow{ position:absolute; top:55px; left:0; height:5px; border-bottom:2px solid #0094ff;
+ overflow:hidden; text-align:center; width:240px; }
+.tab-arrow b{ display:inline-block; height:5px; line-height:0px; width:0px; border:5px solid #000;position: absolute;
+ border-color: transparent transparent #0094ff; border-style:dashed dashed solid;top:-10px;}
+
+/*   saleboxs    */
+.saleboxs{height:400px;width:1200px;border-bottom:1px solid #e4e4e4;
+	padding:20px 0 15px 0;position: relative;}
+.saleboxs a{font-family: "微软雅黑"; }
+.boxs-one,.boxs-two,.boxs-three,.boxs-four{float: left;}
+.boxs-one{height:392px;width:239px;border-right:1px solid #f1f1f1;}
+.boxs-one dt img{width:230px;vertical-align: middle;}
+.goodsname{color:#666666;display: block;line-height: 18px;font-size:14px;padding:0 10px;}
+.virtue a{color:#ff1a3a;font-size:14px;display: block;line-height: 18px;padding-top: 10px;padding:10px 10px 0 10px;}
+.boxs-price{color:#ff1a3a;font-weight:bolder;font-size:18px;padding-top:37px;display: inline-block;padding:37px 10px 0 10px;
+font-family: arial;}
+.boxs-price span{font-size:24px;font-weight: bold;}
+.boxs-price .zhekou{font-size:12px;}
+.boxs .noline-height{padding-top: 0;}
+.boxs-up{float: left;border-right:1px solid #f1f1f1;height:210px;width:239px;border-bottom: 1px solid #f1f1f1;}
+.boxs-up img{width:150px;vertical-align: top;text-align: center;border:0 none;}
+.goods{padding:0 20px 0 13px;}
+.boxs{position: absolute;left:0;display: none;}
+.boxs-one dt img{width: 230px;height: 230px;}
+.boxs-two{height:404px;width:484px;}
+.boxs-down{height:192px;width:484px;}
+.boxs-down dt,.boxs-down dd{float: left;}
+.boxs-down dt{width:230px;height:192px;}
+.boxs-down dt img{width:180px;vertical-align: middle;}
+.boxs-down dd{width:248px;height:192px;padding-top:30px;}
+
+.boxs-three{border-right: 1px solid #f1f1f1;border-left: 1px solid #f1f1f1;height:401px;width:235px;}
+.boxs-three img{width:230px;}
+.four{width:238px;}
+.four img{width:150px;}
+.four1{height:205px;border-bottom:1px solid #f1f1f1; }
+
+/*          brand-activity              */
+.brand-activity{height:372px;}
+.brand-activity .act-h2{height:60px;border-bottom: 2px solid #d0d0d0;}
+.brand-activity .act-h2 h2{font-family: "microsoft yahei";font-size: 18px;color: #333; font-weight: bold;
+height:60px;line-height: 80px;}
+
+.act-h2 h2{ float: left;padding-left: 2px;width: 230px;}
+.small-nav{float:right;}
+.small-nav li{float: left;background: url(img/brangtit.jpg) no-repeat right;margin-top: 36px;}
+.small-nav li a{color: #666;font-family: arial;padding:0 15px;}
+/*.tabs-ul li{width: 218px;}
+.tabs-ul li.hover{list-style: none;float: left; width: 218px;}
+.tabs-ul li.hover span{display: none;}
+.tabs-ul li.hover div{display: block;height: 204px;width: 176px;
+background: #fff;color: #aa0;border-bottom: 1px solid #e4e4e4;
+text-align: center;padding: 13px 21px;}
+.tabs-ul div{float: left;display: none;}
+.tabs-ul div img{vertical-align: top;border: 0 none;width: 160px;height: 160px;display: block;}
+.top-name{overflow: hidden;text-overflow: ellipsis;font-weight: bold;}
+.top-name a{color: #666;display: block;height: 28px;line-height: 28px;}
+.top-price{font-family: "microsoft yahei";font-size: 14px;color: #ff1a3a;font-weight: bold;}*/
+/*护肤排行*/
+.hufu-top{float: right;width: 218px;}
+.hufu-top h2{ font-family:"microsoft yahei"; font-size:16px; line-height:32px; height:32px;
+padding-top: 0!important; color:#ff1a3a; text-align:center; width:218px; border-bottom:2px solid #d0d0d0;}
+.list_show li{ list-style:none; float:left; width:218px; }
+.list_show li .toplist{ display:block ;height:42px; line-height:42px; border-bottom:1px solid #e4e4e4; padding:0 8px;
+background:url(img/topbg.jpg) no-repeat 7px 13px; overflow: hidden; text-overflow: ellipsis; color:#666;font-family: arial;}
+.list_show li .num{ font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#e9025e; display:block; width:22px; height:42px;
+	line-height:44px; padding-left:5px; float:left;font-size: 12px;margin-top:-10px;}
+.list_show li div{ display:none;float:left;}
+.list_show li div a{color: #666;}
+.list_show li.hover span{ display:none;}
+.list_show li.hover div{ display:block; height:204px; width:176px; background:#fff;color:#aa0; border-bottom:1px solid #e4e4e4; text-align:center; padding:13px 21px; }
+.list_show li.hover div .top-name{ height:28px; line-height:28px; overflow: hidden; text-overflow: ellipsis; font-weight:bold;}
+.list_show li.hover div .top-price{ font-family:microsoft yahei; font-size:14px; color:#ff1a3a; font-weight:bold; }
+
+.brand-list{padding-top:10px;}
+.brand-list li{float: left;width:236px;padding-right:5px;}
+.brand-list li img{width:236px;height:300px;display: inline-block;}
+
+/*          skin-care              */
+.skin-care{height:615px;}
+/*===================================================================================*/
+.hufu-goods,.caiz-goods,.perfume-goods,.men-goods,.body-hair-goods{height:480px;width:1200px;
+padding-top: 10px;}
+.small-nav a.active{color:#ff1a3a;}
+.tabs-h2{border-bottom: 2px solid #d0d0d0;height:32px;line-height: 32px;font-size: 16px;
+font-family: "microsoft yahei";text-align: center;width: 218px;color: #ff1a3a;font-weight: bolder;}
+.act-h2{height:60px;border-bottom: 2px solid #0094ff;}
+.tabs-ul li{height:42px;border-bottom:1px solid #e4e4e4;width: 218px;line-height: 42px;
+overflow: hidden;text-overflow: ellipsis;font-family: arial;color:#666;}
+/*.tabs-ul .no{color:#e9025e;font-weight: bold;padding-left: 5px;display: inline-block;height:42px;
+width:35px;background: url(img/topbg.jpg) no-repeat center center;text-indent: 12px;}*/
+
+.body-hair .hufu-top{margin-left:10px;}
+
+.hufu-left,.re-center,.hufu-top{height:480px;float: left;}
+.hufu-left img{width:268px;}
+.re-center{width:689px;padding-right:25px;}
+.re-up{height:180px;width:344px;border-right:1px solid #f1f1f1;float: left;padding:7px 0 15px 0;}
+.re-up dt,.re-up dd{float: left;}
+.re-up dt{width:190px;height:180px;}
+.re-up dd{width:145px;height:180px;}
+.re-center img{width:180px;height:180px;}
+.re-up .goods-title{margin:28px 0 10px 0;}
+.re-up .re-gongxiao{margin-bottom:30px;}
+.re-gongxiao a,.goods-title a{font-family:"microsoft yahei";font-size: 14px;line-height: 18px;}
+.re-gongxiao a{color: #000;}
+.goods-title a{color: #666;overflow: hidden;text-overflow: ellipsis;display: block;}
+.re-price{font-family: Arial;font-weight: bold;line-height: 18px;color: #ff1a3a;font-size: 18px;font-family: "microsoft yahei";}
+.reprice-no{font-size: 24px;font-family: Arial;}
+.re-oo{font-size: 18px;}
+.re-zhekou{font-family: simsun;font-size: 12px;font-weight:normal;}
+.re-down{height:254px;width:181px;border-top:1px solid #f1f1f1;border-right:1px solid #f1f1f1;
+float: left;padding:15px 24px 0 24px;}
+.re-down .re-gongxiao{margin:3px 0 12px 0;}
+.re-down dd{text-align: top;}
+.re-down dt{vertical-align: bottom;}
+
+.re-right{width:218px;}
+
+.skin-care h2{padding-top:15px;}
+.brands{height:57px;width:1192px;border-top: 1px solid #e4e4e4;border-bottom: 1px solid #e4e4e4;padding:0 4px;}
+.brands a{margin:11px 9px;width:75px;height:36px;display: inline-block;}
+.brands img{width:74px;height:36px;border:0 none;}
+
+
+/*          make-up              */
+.make-up{height:615px;}
+.make-up h2{padding-top: 15px;}
+.caiz-left,.caiz-center,.caiz-right{float: left;}
+.caiz-left img{height:480px;width:268px;display: block;}
+.caiz-center{height:480px;width:689px;padding-right: 25px;}
+
+/*          perfume              */
+.perfume{height:615px;}
+.perfume h2{padding-top: 15px;}
+.perfume-left,.perfume-center,.perfume-middle,.perfume-right{float: left;height: 480px;}
+.perfume-left img{width:326px;height:480px;}
+.perfume-center{width:356px;padding-left:1px;}
+.perfune-up,.perfune-down{float: left;}
+.perfune-down{padding:1px 1px 0 0;}
+.perfune-up img{width:355px;height:276px;display: block;}
+.perfune-down img{width:177px;height:203px;}
+
+.perfume-middle{padding-left: 1px;padding-right: 24px;}
+.perfume-middle img{width:274px;height:480px;}
+
+/*          men              */
+.men{height:615px;}
+.men h2{padding-top: 15px;}
+.re-box,.men-center,.men-right{float: left;height:480px;}
+.re-box{width:614px;}
+.re-up1,.re-down1{height:227px;width:184px;border-left:1px solid #f1f1f1;float: left;padding:6px 10px;}
+.re-up1 img,.re-down1 img{height:180px;width:180px;}
+.re-box .goods-title{margin-top:5px;}
+.re-price1{margin-top: 4px;height: 18px;overflow: hidden;text-overflow: ellipsis;    color: #ff1a3a;
+    font-size: 16px;font-family: "microsoft yahei";font-weight: bold;}
+.re-up1{border-bottom: 1px solid #f1f1f1;}
+
+.men-center{padding-right: 24px;}
+.men-center img{height:480px;width:344px;}
+
+/*          body-hair              */
+.body-hair{height:615px;}
+.body-hair h2{padding-top: 15px;}
+.hair-left,.hair-center,.hair-right{float: left;height:480px;}
+.hair-left img{height:480px;width:344px;}
+.hair-center{width:614px;padding-right:24px;}
+
+/*          consult              */
+.consult{height:484px;padding:25px 0 30px 0;}
+
+.consult-left,.consult-right{border-top: 2px solid #d0d0d0;border:1px solid #e4e4e4;height:481px;float: left;}
+.consult-left{ width:765px;padding:0 20px;}
+.consult-left h2{height:36px;border-bottom: 1px solid #e4e4e4;}
+.consult-left h2 a{font-family: "microsoft yahei";color: #333;line-height: 36px;font-weight: bold;
+font-size: 16px;margin-left: 5px;}
+
+.left-content{height:424px;width:743px;padding:20px 12px 0 10px;}
+.content-one,.content-two{float: left;}
+.content-one{width:250px;height:424px;}
+.content-one dt img{width:250px;height:330px;}
+.content-two{width:461px;height:118px;margin:0 0 22px 32px;}
+.content-two dd{width:287px;margin-left: 20px;}
+.content-two dt,.content-two dd{float: left;}
+
+.content-one .all-content h3{color: #545454;font-size: 14px;font-weight: bold;margin-top: 13px;margin-bottom: 5px;
+line-height: 16px;overflow: hidden;}
+
+.all-content h3{color:#545454;line-height: 36px;font-weight: bold;overflow: hidden;text-overflow: ellipsis;}
+.all-content h3 span{color:#00a2ff;margin-right: 9px;}
+.all-content p{color:#999;line-height: 22px;overflow: hidden;text-overflow: ellipsis;display: inline;}
+.all-content a{color:#c80f2f;}
+.all-content p:after{content:"…";}
+
+.content-two dt img{width:154px;height:118px;}
+.consult-right{width:368px;margin-left: 23px;background: #f9f9f9;position: relative;}
+.consult-right h2{height:43px;width: 338px;background: url(img/dbg.jpg) no-repeat;
+	position: absolute;left:-9px;top:11px;color:#fff;font-size: 16px;line-height: 36px;
+	font-family: "microsoft yahei";padding-left: 19px;font-weight: bolder;}
+.have-margin-top{margin-top: 50px;}
+.consult-right dl{margin-left:22px;margin-right:22px;padding:11px 0;height:82px;width:324px;border-bottom: 1px dotted #aaaaaa;}
+.consult-right dt{width:80px;height:80px;border: 1px solid #cccccc;float: right;}
+.consult-right dt img{width:80px;height:80px;}
+.consult-right dl dd{width:224px;}
+.right-goodsname{color:#666;line-height: 29px;font-weight: bold;font-family: arial;
+	display:block;height:29px;overflow: hidden;text-overflow: ellipsis;margin-top: 3px;}
+.right-tuijian span{color: #c80f2f;font-weight: bold;}
+.right-tuijian{color:#999;line-height: 18px;font-family: arial;}

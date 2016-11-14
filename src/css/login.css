@@ -1,0 +1,60 @@
+/*          main                */
+.main{margin: 10px auto 30px;width:978px;height:501px;border:1px solid #c6e6f3;padding:10px;}
+.login,.enroll,.ver-line{height:501px;float: left;}
+.ver-line{width:1px;background:url(img/reg-bg.png) no-repeat;background-position:-928px -83px;}
+
+/*.login{width:438px;padding:38px 27px 0 20px;}
+.login h2{height:42px;width:438px;background: url(img/reg-bg.png) no-repeat;background-position:-162px -152px;}
+.login form p,.enroll form p{line-height: 55px;color: #666;margin-left: 55px;}
+.login form input,.enroll form input{border: 1px solid #7f9db9;width: 200px;padding: 2px;}
+.login ul{padding-left: 65px;}
+.login ul li{float: left;margin-right: 2px;margin-top: 15px;}
+.agree label input{width:10px!important;vertical-align: middle;}
+.qq{color: #666;padding-left: 65px;padding-top: 20px}
+
+.enroll{width:437px;padding:38px 30px 0 25px;}
+.enroll h2{height:42px;width:437px;background: url(img/reg-bg.png) no-repeat -162px -196px;}
+.yzm input{width:56px!important;text-align: left!important;}
+.btnenroll input,.btnlogin input{width: 91px!important;height:30px;margin-left: 90px;margin-top: 25px;}
+.btnenroll input{background: url(img/btn-reg.png) no-repeat;}
+.btnlogin input{background: url(img/btn-login.png) no-repeat;}
+.agree a{color:#00B6F2;}
+.pass a{color: #00B6F2;margin-left: 2px;}*/
+.login ul{padding-left: 65px;}
+.login ul li{float: left;margin-right: 2px;margin-top: 15px;}
+.agree label input{width:10px!important;vertical-align: middle;}
+.qq{color: #666;padding-left: 65px;padding-top: 20px}
+.agree a{color:#00B6F2;}
+.pass3 a{color: #00B6F2;margin-left: 2px;}
+.login{height: 453px;width: 455px;float: left;margin-top: 40px;padding: 0 10px;}
+.login h2{height:43px;width:439px;background: url(img/reg-bg.png) no-repeat;
+background-position:-162px -153px;margin-bottom: 37px;}
+.login form{width:455px;height:280px;}
+.login form p{height: 55px;margin-left: 50px;font-size: 12px;color: #666;font-family: arial;}
+.pass2 a{color: #00B6F2;margin-left: 2px;}
+.yzm input,.yzm1 input{width:50px!important;display: inline-block;}
+
+.yanzm{display: inline-block;height:25px;width:75px;background: url(img/yzm.gif) no-repeat;
+margin-left:30px;font-size: 28px;}
+.tishi{height: 25px;font-size: 12px;line-height: 25px;padding-left: 65px;
+position: relative;color: #515151;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+white-space: normal;display:block;}
+.warning{color: #ff0000;}
+
+.enroll{height: 453px;width: 455px;float: left;margin-top: 40px;padding: 0 10px;}
+.enroll h2{height: 43px;width: 439px;background: url(img/reg-bg.png) no-repeat -162px -196px;
+margin-left: 16px;margin-bottom: 37px;}
+.enroll form p{height: 55px;margin-left: 50px;font-size: 12px;color: #666;font-family: arial;}
+.btnenroll input,.btnlogin input{width: 91px!important;height:30px;margin-left: 90px;border:none;}
+.btnenroll input{background: url(img/btn-reg.png) no-repeat;}
+.btnlogin input{background: url(img/btn-login.png) no-repeat;}
+
+/*   输入框的初始状态    */
+.oninit{font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;width: 200px;
+padding: 2px;border: 1px solid #7f9db9;background: #fff;}
+  
+/*     获得焦点的状态     */
+.input-focus{border: 1px solid #00008B;background-color: #EAF5FF;}
+   
+/*    验证失败的状态    */
+.input_failure{border: 1px solid Maroon;background-color: #FFFDDF;color: #8B0000;}

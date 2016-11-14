@@ -1,0 +1,42 @@
+.main{border: 1px solid #C6E6F3;margin: 10px auto 30px;padding: 10px;
+text-align: left;width: 958px;}
+
+.enroll h2{height: 41px;width: 620px;background: url(img/reg-bg.png) no-repeat -162px -69px;
+margin: 40px auto 37px;}
+.welcome .username{padding-left: 0!important;}
+.agree a{color:#0080FF;}
+.isvip a{color:#0080FF;}
+.isvip a:hover,.agree a:hover{color: #fc7f0f;}
+.align-line{height: 3px;width: 671px;background: url(img/reg-bg.png) no-repeat -161px -435px;
+margin: 18px auto 40px;}
+.enroll form{padding-left: 110px;}
+.enroll form p{height: 55px;margin-left: 50px;font-size: 12px;color: #666;font-family: arial;}
+.enroll form p label{width: 60px;height: 25px;line-height: 23px;text-align: right;}
+.enroll form p img{margin-left:-25px;margin-top: -20px;}
+.img_right{margin-left: 3px;display: none;vertical-align: top;}
+.username,.yzm{padding-left:145px;}
+.pass,.pass2,.email{padding-left:139px;}
+.agree{padding-left:160px;}
+.btnenroll{padding-left:140px;}
+.btnenroll input{width: 91px!important;height:30px;margin-left: 90px;margin-top: 10px;
+background: url(img/btn-reg.png) no-repeat; border: none!important;}
+#btn-enroll{border:none!important;}
+.isvip{padding-left:145px;}
+.yzm .oninit{width:50px!important;display: inline-block;}
+
+.yanzm{display: inline-block;height:25px;width:75px;background: url(img/yzm.gif) no-repeat;
+margin-left:30px;font-size: 28px;}
+.email img{display: block;}
+.tishi{display: block;font-size: 12px;line-height: 20px;padding-left: 55px;
+position: relative;color: #515151;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+white-space: normal;}
+.warning{color: #ff0000;}
+/*   输入框的初始状态    */
+.oninit{font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;width: 200px;
+padding: 2px;border: 1px solid #7f9db9;background: #fff;}
+  
+/*     获得焦点的状态     */
+.input-focus{border: 1px solid #00008B;background-color: #EAF5FF;}
+   
+/*    验证失败的状态    */
+.input_failure{border: 1px solid Maroon;background-color: #FFFDDF;color: #8B0000;}

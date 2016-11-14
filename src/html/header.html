@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<script src="../assets/jquery-1.12.0.js"></script>
+		<script src="../assets/jquery-ui.min.js"></script>
+		<script src="../js/base.js"></script>
+	</head>
+	<body>
+		<!--   公共： 头部欢迎位置    -->
+		<div class="head-info">
+			<div class="inhead-info">
+				<p class="welcome"><span>下午</span>好，<span class="username">xxx</span> ! 欢迎光临No5时尚广场。</p>
+				<span class="roll">
+					<a href="#">[登录]</a>
+					<a href="#">[免费注册]</a>
+				</span>
+				<ul class="user-control">
+					<li class="myaccount clearfix">
+						<a href="#">我的账户</a>
+						<b></b>
+						<div class="hide">
+							<p><a href="#">我的订单</a></p>
+							<p><a href="#">我的积分</a></p>
+							<p><a href="#">我的优惠券</a></p>
+							<p><a href="#">我的收藏</a></p>
+						</div>
+					</li>
+					<li class="line">|</li>
+					<li class="coll"><a href="#">收藏本站</a></li>
+					<li class="line">|</li>
+					<li class="help"><a href="#">帮助中心</a></li>
+					<li class="phone">
+						<span></span>
+						400-883-6655
+					</li>
+				</ul>
+			</div>
+		</div> 
+		
+		<!--   公共： 头部logo    -->
+		<div class="head-search">
+			<div class="logo">
+				<a href="#">
+					<img src="../css/img/logo.jpg" />
+				</a>
+			</div>
+			<div class="search-box">
+				<div class="search">
+					<span>搜索</span>
+					<input type="text" id="forsearch" name="search"/>
+				</div>
+				<div class="hot">
+					热门搜索：
+                	<a href="#">防晒霜 </a>
+                	<a href="#">补水保湿 </a>
+                	<a href="#">水宝宝 </a>
+                	<a href="#" class="active">夏季美白 </a>
+                	<a href="#">雅诗兰黛 </a>
+                	<a href="#">魔漫面膜 </a>
+                	<a href="#">专柜小样 </a>
+				</div>
+			</div>
+
+			<div class="shoppingcart">
+				<div class="trigger">
+					购物车
+					<strong>0</strong>
+					件
+				</div>
+				<div class="shoplist">
+					<div class="goodslist">
+						<dl>
+							<dt>
+								<a href="#">
+									<img src="../img/prod_24028_S_160902115330_64979377.jpg">
+								</a>
+							</dt>
+							<dd class="pro-name">
+								<a href="http:/myweb/src/html/details.html" target="_blank">Dior 迪奥红色1号焕新眼部精华露(小红瓶密集修护眼霜28111) 15ml</a>
+							</dd>
+							<dd class="pro-price">
+								￥438×2
+								<a href="javascript:void(0);" >删除</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="sum">
+						<p>共<b>2</b>件商品　　金额总计：<em>￥876</em></p>
+						<a href="#">去购物车结算</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--   公共： 头部导航       -->
+		<div class="head-nav">
+			<div class="inhead-nav">
+
+				<!--   左边全部商品分类       -->
+				<div class="total-nav clearfix">
+					<span class="float-list-btn">全部商品分类</span>
+
+					<!--      一级菜单       -->
+					<ul class="first-menu">
+						<li style="top:30px;">
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+						<li>
+							<strong><a href="#">面部护理</a></strong>
+							<b class="arrow-right"></b>
+							<p>
+								<a href="#" class="red-active">洗面奶</a>
+								<a href="#">爽肤水</a>
+								<a href="#">乳液</a>
+								<a href="#">防晒</a>
+								<a href="#">面膜</a>
+								<a href="#">精华</a>
+								<a href="#">眼霜</a>
+								<a href="#">卸妆</a>
+								<a href="#">T区护理</a>
+							</p>
+						</li>
+					</ul>
+
+					<!--      二级菜单       -->
+					<ul class="second-menu">
+						<li>
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸fff</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li  style="top:50px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">sss</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li style="top:120px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li style="top:180px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li style="top:230px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li style="top:320px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+						<li style="top:400px;">
+							<ul class="secondlist">
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+								<li>
+									<strong><a href="#">卸妆步骤</a></strong>
+									<div class="float-list">
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+										<a href="#">卸妆油</a>
+									</div>
+								</li>
+							</ul>
+							<div class="hotbrand">
+								<h4>推荐品牌</h4>
+								<ul>
+									<li><a href="#" class="select-red">兰蔻</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									<li><a href="#">兰蔻</a></li>
+									<li><a href="#">雅诗兰黛</a></li>
+									
+									<li><a href="#">更多...</a></li>
+									<a href="#"><img src="../img/14061114333014107186.jpg" alt="" /></a>
+								</ul>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+
+				<!--    右边导航    -->
+				<div class="type-nav">
+					<ul>
+						<li class="noborder-left"><a href="#">首页</a></li>
+						<li><a href="#">超值小样</a></li>
+						<li><a href="#">明星推荐</a></li>
+						<li><a href="#">最新活动</a></li>
+						<li><a href="#">新品上架</a></li>
+						<li><a href="#" class="active">本周特价</a></li>
+						<li><a href="#">清仓</a></li>
+						<li class="noborder-right"><a href="#">品牌库</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+			
+	</body>
+</html>

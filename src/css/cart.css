@@ -1,0 +1,64 @@
+/*      wrap         */
+.wrap{width:950px;margin:0 auto;}
+.header{width:950px;}
+
+/*      header         */
+.header{height:76px;}
+.logo{height:76px;width:305px;float: left;padding-top: 13px;}
+.header ul{float: right;margin-top: 48px;}
+.header ul li{float: left;padding:0 7px;height:16px;color:#999999;line-height: 16px;border-right: 1px solid #c7cccc;}
+.header ul li a{color:#999999;}
+.header ul li a:hover{color:#333333;}
+
+.cart{width:948px;border:1px solid #cccccc;}
+.cart-list{width:948px;border:0;border-spacing: 0px;position: relative;left:0;top:-12px;color:#333333;
+	font-family: Arial, Helvetica, sans-serif;}
+.cart-list a{color:#003399;}
+.cart-list thead{background: url(img/cart-tip-bg.png) repeat-x;}
+.cart-list thead th{text-align: center;}
+.cart-tip{height: 33px;color: #333333;text-align: center;}
+.cart tbody tr{height:34px;border-bottom: 1px dotted #cccccc;}
+.cart tbody tr td{text-align: center;}
+.align-left{text-align: left!important;}
+.total{width:30px;height:14px;text-align: center;font-size: 12px;padding:2px 1px;
+color: Blue;font-weight: bolder;background-color: #ffffff;border: 1px solid #D3E2FA;}
+
+.price{height:27px;width:948px;font-size:14px;color:#333333;font-family: Arial, Helvetica, sans-serif;
+padding-right:10px;font-weight: bolder;}
+.price p{float: right;padding-right: 10px;}
+.price p span{color:#FF0000;}
+
+.cuxiao{width:940px;border:1px solid #ff9900;margin-top: 15px;padding:8px 8px 8px 0;}
+.cuxiao h2,.cuxiao ul{float: left;}
+.cuxiao h2{background: url(img/salesp-bg.png) no-repeat;height:30px;width:90px;}
+.cuxiao ul li{float: left;line-height:22px;height: 22px;padding-right: 50px;
+margin:9px 15px 7px 0;white-space: nowrap;background: url(img/disc.gif) no-repeat left 9px;
+padding-left: 9px;}
+.cuxiao ul li a{color: #FF0000;}
+.cuxiao ul li a:hover {color: #FF0000;text-decoration: underline;}
+
+.duihuan{padding:15px 0 42px 0;width:950px;}
+.duihuan p{float: left;}
+.input-num{font-size: 12px;padding: 2px;font-weight: bold;font-family: Verdana,Arial, sans-serif;
+    width: 160px;vertical-align: bottom;}
+.btn-duihuan{font-size: 12px;padding: 1px;width:55px;height:23px;}
+.clear-cart{margin-left: 315px;line-height: 30px;}
+.clear-cart img{vertical-align: middle;}
+.go-on-buy{margin-left:15px;}
+.btn-go-sett{margin-left:8px;}
+
+
+.tehuiqu{width:944px;border: 3px solid #d3f1fd;}
+.tehuiqu h1{height:27px;width:944px;background: #d3f1fd;text-indent: 50px;font-size:16px;
+	color:#1984d8;line-height: 27px;font-family: "微软雅黑";}
+.big{width:917px;padding:0 0 31px 25px;}
+.all-tehui{width:280px;margin:16px 25px 0 0;float: left;}
+.all-tehui h3{height:33px;width:280px;background: url(img/single-sa-bg.png) no-repeat left top;
+font-size: 14px; line-height: 33px;color: #048ddb;text-align: center;}
+.all-tehui ul{width:278px;border:1px solid #e1e1e1;padding-bottom: 9px;}
+.all-tehui ul li{list-style-type: none;line-height: 25px;height:25px;
+margin: 5px 0 5px 5px;font-family: "宋体";}
+.all-tehui ul li input{vertical-align: middle;}
+.num-orange{color:#FF6600!important;font-family: Arial, Helvetica, sans-serif;}
+.all-tehui ul li a{color: #666666;line-height: 16px;font-family: "宋体";}
+.btn-add{margin-left:32px;}
